@@ -1,0 +1,177 @@
+body {
+    padding-top: 0;
+    margin: 0;
+    background-color: #fff;
+}
+
+.navbar {
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+.navbar .nav-link {
+    font-size: 1.1rem;
+    transition: 0.3s;
+}
+
+.navbar .nav-link:hover {
+    color: #2b6c72;
+}
+
+.hero h1 {
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
+}
+
+section {
+    scroll-behavior: smooth;
+}
+
+.navbar-brand img {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.navbar-brand img:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.nav-link {
+    transition: 0.3s ease;
+}
+
+.nav-link:hover {
+    color: #007b83;
+    text-decoration: underline;
+}
+
+
+html, body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    overflow-x: hidden; 
+    
+}
+
+#root {
+    overflow-x: hidden;
+}
+
+section {
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.navbar {
+    transition: all 0.4s ease;
+    z-index: 1000;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.nav-link:hover {
+    color: #007b7b !important;
+    text-decoration: underline;
+}
+
+.producto-card:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
+}
+
+.btn-outline-success:hover {
+    background-color: #00a88f;
+    color: white;
+    border-color: #00a88f;
+}
+
+.producto-card {
+    background: white;
+    padding: 15px;
+    border-radius: 12px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    text-align: center;
+}
+
+.producto-img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.producto-nombre {
+    margin: 10px 0;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.btn-vermas {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 8px 15px;
+    background: #41a6df;
+    color: white;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.detalle-container {
+    padding: 20px;
+    text-align: center;
+}
+
+.detalle-img {
+    width: 85%;
+    max-width: 500px;
+    border-radius: 12px;
+}
+
+.detalle-info {
+    margin-top: 15px;
+    font-size: 18px;
+    color: #333;
+}
+
+.btn-volver {
+    margin-top: 20px;
+    display: inline-block;
+    padding: 8px 20px;
+    background: #41a6df;
+    color: white;
+    border-radius: 8px;
+    text-decoration: none;
+}
+
+#nosotros-section {
+    padding-top: 140px !important;
+}
+
+.contact-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: white;
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+    transition: 0.3s ease;
+}
+
+.contact-icon:hover {
+    transform: scale(1.1);
+    box-shadow: 0 6px 18px rgba(0,0,0,0.25);
+}
+
+.icon-img {
+    width: 40px;
+    height: 40px;
+    object-fit: contain;
+}
